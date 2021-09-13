@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mridul's Music Player</title>
+
+    <link rel="stylesheet" type="text/css" href="./src/styles.css">
+    
+    <script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <h1>ASDASKDaSKUDBk</h1> -->
+    <nav>
+        <!-- <div class="main1" style="display: flex;justify-content: space-evenly;width: 25%;"> -->
+            <div class="1">
+                <h1>Mridul</h1>
+                <h5>Music Player</h5>
+            </div>
+            <div class="2">
+                <h3>Favourites</h3>
+            </div>
+            <div class="3">
+                <input type="text" name="search" placeholder="Search">
+            </div>
+            <div class="4" style="color: white;">
+                Notification
+            </div>
+            <div class="5" style="display: flex;">
+                <!-- <h3>Profile Photo</h3> -->
+                <img style="width: 30px;
+                height: 70%;border-radius: 10px;" src="./media/profile_picture.png">
+            </div>
+        
+    </nav>
+    <main style="display: flex;position: relative;top: 10vh;height: 100vh;width: 90%;left: 5%;">
+
+        <!-- <div style="height: 100vh;display: flex;"> -->
+            <div class="main1">
+                <div class="main-carousel">
+                    <div class="carousel-section">
+                        <img src="./media/carousel1.jpg">
+                        <img src="./media/carousel2.jpg">
+                        <img src="./media/carousel3.jpg">
+                    </div>
+                </div>
+                
+                <div class="main-latest-release">
+                    <span 
+                        style="color: white;font-style: normal;font-size: 24px;font-family: 'Times New Roman', Times, serif;"
+                    >Latest Release</span>
+                    <br><br>
+                    <div class="latest-release">
+                        <div class="latest-release1">
+                            <div style="display: flex;justify-content: space-between;width: 100%;align-items: center;">
+                                <img src="./media/Katy perry.jpg" style="height: 12vh;width: 12vh;">
+                                <span>
+                                    <div style="color: white;font-size: 24px;">Roar</div>
+                                    <div style="color: white;">Dec 20</div>
+                                </span>
+                                <span style="justify-self: flex-end;color: white;">
+                                    3:35
+                                </span>
+                            </div>
+                            
+                        </div>
+                        <div class="latest-release2">
+                            <div style="display: flex;justify-content: space-between;width: 100%;align-items: center;">
+                                <img src="./media/Lil wayne.jpg" style="height: 12vh;width: 12vh;">
+                                <span>
+                                    <div style="color: white;font-size: 24px;">Love Lost</div>
+                                    <div style="color: white;">Dec 20</div>
+                                </span>
+                                <span style="justify-self: flex-end;color: white;">
+                                    3:50
+                                </span>
+                            </div>
+                        </div>
+                        <div class="latest-release3">
+                            <div style="display: flex;justify-content: space-between;width: 100%;align-items: center;">
+                                <img src="./media/ed sheeran.jpg" style="height: 12vh;width: 12vh;">
+                                <span>
+                                    <div style="color: white;font-size: 24px;">Perfect</div>
+                                    <div style="color: white;">Dec 20</div>
+                                </span>
+                                <span style="justify-self: flex-end;color: white;">
+                                    3:00
+                                </span>
+                            </div>
+                        </div>
+                        <div class="latest-release4">
+                            <div style="display: flex;justify-content: space-between;width: 100%;align-items: center;">
+                                <img src="./media/bruno mars.jpg" style="height: 12vh;width: 12vh;">
+                                <span>
+                                    <div style="color: white;font-size: 24px;">24k</div>
+                                    <div style="color: white;">Dec 20</div>
+                                </span>
+                                <span style="justify-self: flex-end;color: white;">
+                                    4:00
+                                </span>
+                            </div>
+                        </div>
+                        <div class="latest-release5">
+                            <div style="display: flex;justify-content: space-between;width: 100%;align-items: center;">
+                                <img src="./media/drake.jpg" style="height: 12vh;width: 12vh;">
+                                <span>
+                                    <div style="color: white;font-size: 24px;">Rap</div>
+                                    <div style="color: white;">Dec 20</div>
+                                </span>
+                                <span style="justify-self: flex-end;color: white;">
+                                    3:20
+                                </span>
+                            </div>
+                        </div>
+                        <div class="latest-release6">
+                            <div style="display: flex;justify-content: space-between;width: 100%;align-items: center;">
+                                <img src="./media/Camila Cabello.jpg" style="height: 12vh;width: 12vh;">
+                                <span>
+                                    <div style="color: white;font-size: 24px;">Senorita</div>
+                                    <div style="color: white;">Dec 20</div>
+                                </span>
+                                <span style="justify-self: flex-end;color: white;">
+                                    4:35
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-popular-artist">
+                    <span 
+                        style="color: white;font-style: normal;font-size: 24px;font-family: 'Times New Roman', Times, serif;"
+                    >Popular Artist</span>
+                    <br><br>
+                    <div class="popular-artist">
+                        <div>
+                            <a href="./single_screen.html">
+                                <img src="./media/Lil wayne.jpg" style="height: 20vh;width: 20vh;">
+                            </a>
+                            <p>Lil Wayne</p>    
+                        </div>
+                        <div>
+                            <a href="./single_screen.html">
+                                <img src="./media/Camila Cabello.jpg" style="height: 20vh;width: 20vh;">
+                            </a>
+                            <p>Camila Cabello</p>    
+                        </div>
+                        <div>
+                            <a href="./single_screen.html">
+                                <img src="./media/billie eilish.jpg" style="height: 20vh;width: 20vh;">
+                            </a>
+                            <p>Billie Eilish</p>    
+                        </div>
+                        <div>
+                            <a href="./single_screen.html">
+                                <img src="./media/eminem.jpg" style="height: 20vh;width: 20vh;">
+                            </a>
+                            <p>Eminem</p>
+                        </div>
+                        <div>    
+                            <a href="./single_screen.html">
+                                <img src="./media/posty.png" style="height: 20vh;width: 20vh;">
+                            </a>
+                            <p>Posty</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="music-themes">
+                    <!-- this div will be the logo of music themes, see the output, the one with 3 squares/rects  -->
+                    <!-- the logo with orange, green and yellow color -->
+                    <div class="stations">
+                        <div id="div1">
+                            <div id="div2">
+                                <div id="div3">
+                                    <img src="./media/website_logo.png">
+                                    <p>Stations</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- this is the content part of them themes -->
+                    <!-- the one which changes colors on hover -->
+                    <div class="theme-main">
+                        <div class="theme-content">
+                            <img src="./media/chill.jpg">
+                            <p>Vibe</p>
+                        </div>
+                        <div class="theme-content">
+                            <img src="./media/rock.jpg">
+                            <p>Rock</p>
+                        </div>
+                        <div class="theme-content">
+                            <img src="./media/love.jpg">
+                            <p>Love</p>
+                        </div>
+                        <div class="theme-content">
+                            <img src="./media/pop.jpg">
+                            <p>Pop</p>
+                        </div>
+                        <div class="theme-content">
+                            <img src="./media/retro.jpg">
+                            <p>Retro</p>
+                        </div>
+                        <div class="theme-content">
+                            <img src="./media/workout.jpg">
+                            <p>GYM</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- this is another themes portion, that electronic, party and road theme -->
+                <div class="music-themes-2">
+                    <!-- 3 divs content -->
+                    <div class="outer-div">
+                        <div class="inner-div">
+                            <span>party</span>
+                        </div>
+                    </div>
+                    <div class="outer-div">
+                        <div class="inner-div">
+                            <span>Electronic</span>
+                        </div>
+                    </div>
+                    <div class="outer-div">
+                        <div class="inner-div">
+                            <span>Travel</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="latest-english">
+                    <span 
+                        style="color: white;font-style: normal;font-size: 24px;font-family: 'Times New Roman', Times, serif;"
+                    >Latest English</span>
+                    <br><br>
+                    <div class="latest-english-artist">
+                        <span>
+                            <div>
+                                <img src="./media/Katy perry.jpg" style="height: 20vh;width: 20vh;">
+                            </div>
+                            <div style="color: white;font-size: 18px;">Roar</div>
+                            <div style="color: white;">June 20</div>
+                        </span>
+                        <span>
+                            <div>
+                                <img src="./media/Lil wayne.jpg" style="height: 20vh;width: 20vh;">
+                            </div>
+                            <div style="color: white;font-size: 18px;">Mirrors</div>
+                            <div style="color: white;">Oct 20</div>
+                        </span>
+                        <span>
+                            <div>
+                                <img src="./media/Camila Cabello.jpg" style="height: 20vh;width: 20vh;">
+                            </div>
+                            <div style="color: white;font-size: 18px;">Senorita</div>
+                            <div style="color: white;">May 18</div>
+                        </span>
+                        <span>
+                            <div>
+                                <img src="./media/billie eilish.jpg" style="height: 20vh;width: 20vh;">
+                            </div>
+                            <div style="color: white;font-size: 18px;">Song </div>
+                            <div style="color: white;">JAN 19</div>
+                        </span>
+                        <span>
+                            <div>
+                                <img src="./media/posty.png" style="height: 20vh;width: 20vh;">
+                            </div>
+                            <div style="color: white;font-size: 18px;">Song</div>
+                            <div style="color: white;">Dec 19</div>
+                        </span>
+                        <span>
+                            <div>
+                                <img src="./media/eminem.jpg" style="height: 20vh;width: 20vh;">
+                            </div>
+                            <div style="color: white;font-size: 18px;">Rap God</div>
+                            <div style="color: white;">Dec 20</div>
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="latest-hindi">
+                    <span 
+                        style="color: white;font-style: normal;font-size: 24px;font-family: 'Times New Roman', Times, serif;"
+                    >Latest Hindi</span>
+                    <br><br>
+                    <div class="latest-hindi-artist">
+                        <span>
+                            <div>
+                                <img src="./media/Katy perry.jpg" style="height: 20vh;width: 20vh;">
+                            </div>
+                            <div style="color: white;font-size: 18px;">Roar</div>
+                            <div style="color: white;">June 20</div>
+                        </span>
+                        <span>
+                            <div>
+                                <img src="./media/Lil wayne.jpg" style="height: 20vh;width: 20vh;">
+                            </div>
+                            <div style="color: white;font-size: 18px;">Mirrors</div>
+                            <div style="color: white;">Oct 20</div>
+                        </span>
+                        <span>
+                            <div>
+                                <img src="./media/Camila Cabello.jpg" style="height: 20vh;width: 20vh;">
+                            </div>
+                            <div style="color: white;font-size: 18px;">Senorita</div>
+                            <div style="color: white;">May 18</div>
+                        </span>
+                        <span>
+                            <div>
+                                <img src="./media/billie eilish.jpg" style="height: 20vh;width: 20vh;">
+                            </div>
+                            <div style="color: white;font-size: 18px;">Song </div>
+                            <div style="color: white;">JAN 19</div>
+                        </span>
+                        <span>
+                            <div>
+                                <img src="./media/posty.png" style="height: 20vh;width: 20vh;">
+                            </div>
+                            <div style="color: white;font-size: 18px;">Song</div>
+                            <div style="color: white;">Dec 19</div>
+                        </span>
+                        <span>
+                            <div>
+                                <img src="./media/eminem.jpg" style="height: 20vh;width: 20vh;">
+                            </div>
+                            <div style="color: white;font-size: 18px;">Rap God</div>
+                            <div style="color: white;">Dec 20</div>
+                        </span>
+                        
+                    </div>
+                </div>
+                <!-- <br><br><br><br><br><br><br><br><br><br> -->
+            </div>
+            <div class="main2">
+                <div class="main2-header">
+                    <span style="font-size: 24px;color: white;font-family: 'Times New Roman', Times, serif;">Playlist</span>
+                    <span style="font-size: 16px;color: greenyellow;font-family: Arial, Helvetica, sans-serif;">Queue</span>
+                </div>
+
+                <div class="main2-playlist">
+                    <div class="playlist-item">
+                        <span>01</span>
+                        <img src="./media/Katy perry.jpg" style="height: 12vh;width: 12vh;">
+                        <div>
+                            <div>Roar</div>
+                            <div>Katy Perry</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <span>02</span>
+                        <img src="./media/Katy perry.jpg" style="height: 12vh;width: 12vh;">
+                        <div>
+                            <div>Roar</div>
+                            <div>Katy Perry</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <span>03</span>
+                        <img src="./media/Katy perry.jpg" style="height: 12vh;width: 12vh;">
+                        <div>
+                            <div>Roar</div>
+                            <div>Katy Perry</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <span>04</span>
+                        <img src="./media/Katy perry.jpg" style="height: 12vh;width: 12vh;">
+                        <div>
+                            <div>Roar</div>
+                            <div>Katy Perry</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <span>05</span>
+                        <img src="./media/Katy perry.jpg" style="height: 12vh;width: 12vh;">
+                        <div>
+                            <div>Roar</div>
+                            <div>Katy Perry</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <span>06</span>
+                        <img src="./media/Katy perry.jpg" style="height: 12vh;width: 12vh;">
+                        <div>
+                            <div>Roar</div>
+                            <div>Katy Perry</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <span>07</span>
+                        <img src="./media/Katy perry.jpg" style="height: 12vh;width: 12vh;">
+                        <div>
+                            <div>Roar</div>
+                            <div>Katy Perry</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <span>08</span>
+                        <img src="./media/Katy perry.jpg" style="height: 12vh;width: 12vh;">
+                        <div>
+                            <div>Roar</div>
+                            <div>Katy Perry</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <span>09</span>
+                        <img src="./media/Katy perry.jpg" style="height: 12vh;width: 12vh;">
+                        <div>
+                            <div>Roar</div>
+                            <div>Katy Perry</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <span>10</span>
+                        <img src="./media/Katy perry.jpg" style="height: 12vh;width: 12vh;">
+                        <div>
+                            <div>Roar</div>
+                            <div>Katy Perry</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <span>11</span>
+                        <img src="./media/Katy perry.jpg" style="height: 12vh;width: 12vh;">
+                        <div>
+                            <div>Roar</div>
+                            <div>Katy Perry</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <span>12</span>
+                        <img src="./media/Katy perry.jpg" style="height: 12vh;width: 12vh;">
+                        <div>
+                            <div>Roar</div>
+                            <div>Katy Perry</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        <!-- </div> -->
+
+    </main>
+
+    <footer>
+        <div class="footer-song-description" style="display: flex;justify-content: space-between;">
+            <img style="height: 100%;" src="./media/eminem.jpg">
+            <span style="color: white;margin-left: 20px;align-items: center;">
+                <h4>Imagine by John</h4>
+                <h5>John Lenon</h5>
+            </span>
+        </div>
+
+        <div id="slider">
+            <div class="time">
+                1:39
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+            </div>
+            <div class="time">
+                4:44
+            </div>
+        </div>
+
+        <div class="extras">
+            
+        </div>
+    </footer>
+</body>
+</html>
